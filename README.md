@@ -32,7 +32,7 @@ Perform:
 3) Run ```cal_ped_seq2imgs.m``` in Matlab.
 4) Run ```python3 process_cal_ped_test.py```.  
 
-#### BDD100K Dataset(https://bdd-data.berkeley.edu/) 
+#### BDD100K Dataset (https://bdd-data.berkeley.edu/) 
 As the dataset is very large, only (randomly) selected subsets were used for creating train and validation datasets. Therefore, it is necesarry to use sources files to get the exactly same datasets as were used during training.  
 Perform:
 1) Execute ```./download_bdd100k_selected.sh```.
