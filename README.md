@@ -2,7 +2,7 @@
 
 This repository contains complete code and trained models related to [PreCNet.. DOPLNOIT NAZEV CLANKU] by Zdenek Straka, Tomas Svoboda and Matej Hoffmann. The content is sufficient to generate all results and figures from the paper.
 
-PreCNet is a deep hierachical reccurent network for next frame video prediction which embodies predictive coding schema proposed by Rao and Ballard (Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects).
+PreCNet is a deep hierachical reccurent network for next frame video prediction which embodies predictive coding schema proposed by Rao and Ballard ([Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects](https://www.nature.com/articles/nn0199_79)).
 
 ## How to proceed
 0. Install prerequisities
