@@ -36,7 +36,7 @@ As the dataset is very large, only (randomly) selected subsets were used for cre
 Perform:
 1) Execute ```./download_bdd100k_selected.sh```.
 2) Run ```python3 process_selected_bdd100k_val.py``` for getting validation dataset. 
-2) Run ```python3 process_selected_bdd100k_train0-4999.py``` (```python3 process_selected_bdd100k_train_40K.py```) for getting large (small) subset of *BDD100K* as a training set -- 2M (40K) of frames.
+2) Run ```python3 process_selected_bdd100k_train0-4999.py``` (```python3 process_selected_bdd100k_train_40K.py```) for getting large (small) subset of *BDD100K* as a training set -- 2M (41K) of frames.
 
 
 ## Training/downloading of a network
