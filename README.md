@@ -21,6 +21,7 @@ Dataset location is set in *{kitti/bdd_large/bdd_small}_settings.py*.
 
 
 ### Getting datasets
+Please see the links bellow for information about the datasets and their terms of use.
 #### KITTI Dataset (http://www.cvlibs.net/datasets/kitti/)
 Run ```python3 process_kitti.py```.
 
