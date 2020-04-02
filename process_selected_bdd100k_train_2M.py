@@ -58,22 +58,22 @@ X=hkl.load(os.path.join(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train0-999.hkl'
 print('0-999')
 print(X.shape)
 
-X_tmp=hkl.load(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train1000-1999.hkl')
+X_tmp=hkl.load(os.path.join(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train1000-1999.hkl'))
 X=np.append(X,X_tmp,axis=0)
 print('1000-1999')
 print(X.shape)
 
-X_tmp=hkl.load(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train2000-2999.hkl')
+X_tmp=hkl.load(os.path.join(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train2000-2999.hkl'))
 X=np.append(X,X_tmp,axis=0)
 print('2000-2999')
 print(X.shape)
 
-X_tmp=hkl.load(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train3000-3999.hkl')
+X_tmp=hkl.load(os.path.join(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train3000-3999.hkl'))
 X=np.append(X,X_tmp,axis=0)
 print('3000-3999')
 print(X.shape)
 
-X_tmp=hkl.load(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train4000-4999.hkl')
+X_tmp=hkl.load(os.path.join(DATA_DIR, 'raw_bdd100k_dataset/X_bdd100k_train4000-4999.hkl'))
 X=np.append(X,X_tmp,axis=0)
 print('4000-4999')
 print(X.shape)
