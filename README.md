@@ -15,9 +15,9 @@ PreCNet is a deep hierachical reccurent network for next frame video prediction 
 
 
 ## Datasets
-The model was trained on (i) kitti dataset, (ii) small subset of bdd100k with size 41K frames, (iii) large subset of bdd100k with size 2M frames. Evaluation of the network was performed on test part of Caltech Pedestrian Dataset.
+The model was trained on (i) **KITTI** dataset, (ii) small subset of **Berkeley DeepDrive dataset (bdd100k)** with size 41K frames, (iii) large subset of **bdd100k** with size 2M frames. Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
 
-Dataset location is set in {kitti/bdd_large/bdd_small}_settings.py.
+Dataset location is set in *{kitti/bdd_large/bdd_small}_settings.py*.
 
 
 ### Getting datasets
@@ -27,7 +27,7 @@ Run ```python3 process_kitti.py```
 #### Caltech Pedestrian Dataset (http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 Perform: 
 1) Execute ```./download_caltech_pedestrian_dataset.sh```
-2) Download and install Piotr's Computer Vision Matlab Toolbox (https://pdollar.github.io/toolbox/)
+2) Download and install [Piotr's Computer Vision Matlab Toolbox](https://pdollar.github.io/toolbox/)
 3) Run ```cal_ped_seq2imgs.m``` in Matlab
 4) Run ```python3 process_cal_ped_test.py```  
 
@@ -42,21 +42,21 @@ Perform:
 ## Training/downloading of a network
 The model can be train, dependinng on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in the folders model_data_{kitti/bdd_small/bdd_large}.
 
-Model location is set in {kitti/bdd_large/bdd_small}_settings.py.  
+Model location is set in *{kitti/bdd_large/bdd_small}_settings.py*.  
 
 
 ## Evaluation and figures
-See comments in the code for choosing a model (trained on kitti/bdd100k_small/bdd100k_large). Results will be saved in {kitti/bdd_large/bdd_small}_results (defined in {kitti/bdd_large/bdd_small}_settings.py).
+See comments in the code for choosing a model (trained on kitti/bdd100k_small/bdd100k_large). Results will be saved in the folder *{kitti/bdd_large/bdd_small}_results* (defined in *{kitti/bdd_large/bdd_small}_settings.py*).
 
 ### Next frame video prediction evaluation
 
-Run ```python3 caltech_pedestrian_evaluate.py``` for getting SSIM, PSNR, MSE values on Caltech Pedestrian Dataset (Tables 3, 4 in the article) and getting randomly selected predicted sequences. 
+Run ```python3 caltech_pedestrian_evaluate.py``` for getting SSIM, PSNR, MSE values on *Caltech Pedestrian Dataset* (Tables 3, 4 in the article) and getting randomly selected predicted sequences. 
 
 Execute ```python3 caltech_pedest_plot_selected_seq.py``` for obtaining a selected sequence prediction (Fig. 5, 6 in the article). 
  
 
 ### Multiple frame video prediction evaluation
-Run ```python3 caltech_pedest_evaluate_extrap.py``` for getting SSIM, PSNR, MSE values for multiple frame prediction on Caltech Pedestrian Dataset (Table 5 in the article) and obtaining randomly selected predicted sequences.
+Run ```python3 caltech_pedest_evaluate_extrap.py``` for getting SSIM, PSNR, MSE values for multiple frame prediction on *Caltech Pedestrian Dataset* (Table 5 in the article) and obtaining randomly selected predicted sequences.
 
 Execute ```python3 caltech_pedest_plot_selected_seq_extrap_fig.py``` for obtaining a selected sequence with multiple frame prediction.
 
