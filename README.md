@@ -65,7 +65,7 @@ Execute ```python3 caltech_pedest_plot_selected_seq_extrap_fig.py``` for obtaini
 ## Additional Notes
 A size of input images has to be divisible by 2^(nb of layers - 1) because pooling operation halves size of its input in each layer and the sizes have to be integers in all layers.
 
-Network states can be obtained by setting output mode to desire units and layer (e.g. output_mode = 'Etd1' for getting error units states in second layer after top down pass).
+Network states can be obtained by setting output mode to desire units and layer (e.g. ```output_mode = 'Etd1'``` for getting error units states in second layer after top down pass).
 
 
 ## Acknowledgements
