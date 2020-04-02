@@ -15,7 +15,7 @@ PreCNet is a deep hierachical reccurent network for next frame video prediction 
 
 
 ## Datasets
-The model was trained on (i) **KITTI** dataset, (ii) small subset of **Berkeley DeepDrive dataset (bdd100k)** with size 41K frames, (iii) large subset of **bdd100k** with size 2M frames. Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
+The model was trained on (i) **KITTI** dataset, (ii) small subset of **Berkeley DeepDrive dataset (BDD100k)** with size 41K frames, (iii) large subset of **BDD100k** with size 2M frames. Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
 
 Dataset location is set in *{kitti/bdd_large/bdd_small}_settings.py*.
 
