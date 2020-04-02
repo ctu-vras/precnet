@@ -26,7 +26,7 @@ Run python3 process_kitti.py
 
 #### Caltech Pedestrian Dataset (http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 Perform: 
-1) Execute ./download_caltech_pedestrian_dataset.sh
+1) Execute ```./download_caltech_pedestrian_dataset.sh```
 2) Download and install Piotr's Computer Vision Matlab Toolbox (https://pdollar.github.io/toolbox/)
 3) Run cal_ped_seq2imgs.m in Matlab
 4) Run python3 process_cal_ped_test.py  
