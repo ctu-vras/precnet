@@ -22,25 +22,25 @@ Dataset location is set in {kitti/bdd_large/bdd_small}_settings.py.
 
 ### Getting datasets
 #### KITTI Dataset (http://www.cvlibs.net/datasets/kitti/)
-Run python3 process_kitti.py
+Run ```python3 process_kitti.py```
 
 #### Caltech Pedestrian Dataset (http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 Perform: 
-1) Execute ./download_caltech_pedestrian_dataset.sh
+1) Execute ```./download_caltech_pedestrian_dataset.sh```
 2) Download and install Piotr's Computer Vision Matlab Toolbox (https://pdollar.github.io/toolbox/)
-3) Run cal_ped_seq2imgs.m in Matlab
-4) Run python3 process_cal_ped_test.py  
+3) Run ```cal_ped_seq2imgs.m``` in Matlab
+4) Run ```python3 process_cal_ped_test.py```  
 
 #### BDD100K Dataset(https://bdd-data.berkeley.edu/) 
 As the dataset is very large, only (randomly) selected subsets were used for creating train and validation datasets. Therefore, it is necesarry to use sources files to get the exactly same datasets as were used during training.  
 Perform:
-1) Execute ./download_bdd100k_selected.sh
-2) Run python3 process_selected_bdd100k_val.py for getting validation dataset. 
-2) Run python3 process_selected_bdd100k_train0-4999.py (python3 process_selected_bdd100k_train_40K.py) for getting large (small) subset of BDD100K as a training set -- 2M (40K) of frames.
+1) Execute ```./download_bdd100k_selected.sh```
+2) Run ```python3 process_selected_bdd100k_val.py``` for getting validation dataset. 
+2) Run ```python3 process_selected_bdd100k_train0-4999.py``` (```python3 process_selected_bdd100k_train_40K.py```) for getting large (small) subset of BDD100K as a training set -- 2M (40K) of frames.
 
 
 ## Training/downloading of a network
-The model can be train, dependinng on training dataset, by kitti_train.py, bdd_large_train.py or bdd_small_train.py. Already trained models, which was evaluated in the article, can be found in.. DOPLN.. zalezi jestli pujdou umistit primo na github nebo stahnout..
+The model can be train, dependinng on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in.. DOPLN.. zalezi jestli pujdou umistit primo na github nebo stahnout..
 
 Model location is set in {kitti/bdd_large/bdd_small}_settings.py.  
 
@@ -50,15 +50,15 @@ See comments in the code for choosing a model (trained on kitti/bdd100k_small/bd
 
 ### Next frame video prediction evaluation
 
-Run caltech_pedestrian_evaluate.py for getting SSIM, PSNR, MSE values on Caltech Pedestrian Dataset (Tables 3, 4 in the article) and getting randomly selected predicted sequences. 
+Run ```python3 caltech_pedestrian_evaluate.py``` for getting SSIM, PSNR, MSE values on Caltech Pedestrian Dataset (Tables 3, 4 in the article) and getting randomly selected predicted sequences. 
 
-Execute caltech_pedest_plot_selected_seq.py for obtaining a selected sequence prediction (Fig. 5, 6 in the article). 
+Execute ```python3 caltech_pedest_plot_selected_seq.py``` for obtaining a selected sequence prediction (Fig. 5, 6 in the article). 
  
 
 ### Multiple frame video prediction evaluation
-Run python3 caltech_pedest_evaluate_extrap.py for getting SSIM, PSNR, MSE values for multiple frame prediction on Caltech Pedestrian Dataset (Table 5 in the article) and obtaining randomly selected predicted sequences.
+Run ```python3 caltech_pedest_evaluate_extrap.py``` for getting SSIM, PSNR, MSE values for multiple frame prediction on Caltech Pedestrian Dataset (Table 5 in the article) and obtaining randomly selected predicted sequences.
 
-Execute python3 caltech_pedest_plot_selected_seq_extrap_fig.py for obtaining a selected sequence with multiple frame prediction.
+Execute ```python3 caltech_pedest_plot_selected_seq_extrap_fig.py``` for obtaining a selected sequence with multiple frame prediction.
 
 
 
