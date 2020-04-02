@@ -15,38 +15,38 @@ PreCNet is a deep hierachical reccurent network for next frame video prediction 
 
 
 ## Datasets
-The model was trained on (i) **KITTI** dataset, (ii) small subset of **Berkeley DeepDrive dataset (BDD100K)** with size 41K frames, (iii) large subset of **BDD100K** with size 2M frames. Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
+The model was trained on (i) **KITTI** dataset, (ii) large subset of **Berkeley DeepDrive dataset (BDD100K)** with size 2M frames (*bdd_large*), (iii) small subset of **BDD100K** with size 41K frames (*bdd_small*). Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
 
 Dataset location is set in *{kitti/bdd_large/bdd_small}_settings.py*.
 
 
 ### Getting datasets
 #### KITTI Dataset (http://www.cvlibs.net/datasets/kitti/)
-Run ```python3 process_kitti.py```
+Run ```python3 process_kitti.py```.
 
 #### Caltech Pedestrian Dataset (http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 Perform: 
-1) Execute ```./download_caltech_pedestrian_dataset.sh```
-2) Download and install [Piotr's Computer Vision Matlab Toolbox](https://pdollar.github.io/toolbox/)
-3) Run ```cal_ped_seq2imgs.m``` in Matlab
-4) Run ```python3 process_cal_ped_test.py```  
+1) Execute ```./download_caltech_pedestrian_dataset.sh```.
+2) Download and install [Piotr's Computer Vision Matlab Toolbox](https://pdollar.github.io/toolbox/).
+3) Run ```cal_ped_seq2imgs.m``` in Matlab.
+4) Run ```python3 process_cal_ped_test.py```.  
 
 #### BDD100K Dataset(https://bdd-data.berkeley.edu/) 
 As the dataset is very large, only (randomly) selected subsets were used for creating train and validation datasets. Therefore, it is necesarry to use sources files to get the exactly same datasets as were used during training.  
 Perform:
-1) Execute ```./download_bdd100k_selected.sh```
+1) Execute ```./download_bdd100k_selected.sh```.
 2) Run ```python3 process_selected_bdd100k_val.py``` for getting validation dataset. 
 2) Run ```python3 process_selected_bdd100k_train0-4999.py``` (```python3 process_selected_bdd100k_train_40K.py```) for getting large (small) subset of *BDD100K* as a training set -- 2M (40K) of frames.
 
 
 ## Training/downloading of a network
-The model can be train, dependinng on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*.
+The model can be train, depending on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*.
 
 Model location is set in *{kitti/bdd_large/bdd_small}_settings.py*.  
 
 
 ## Evaluation and figures
-See comments in the code for choosing a model (trained on *kitti/bdd100k_small/bdd100k_large*). Results will be saved in the folder *{kitti/bdd_large/bdd_small}_results* (defined in *{kitti/bdd_large/bdd_small}_settings.py*).
+See comments in the code for choosing a model (trained on *kitti/bdd_large/bdd_small*). Results will be saved in the folder *{kitti/bdd_large/bdd_small}_results* (defined in *{kitti/bdd_large/bdd_small}_settings.py*).
 
 ### Next frame video prediction evaluation
 
