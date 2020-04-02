@@ -40,7 +40,7 @@ Perform:
 
 
 ## Training/downloading of a network
-The model can be train, dependinng on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in.. DOPLN.. zalezi jestli pujdou umistit primo na github nebo stahnout..
+The model can be train, dependinng on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in the folders model_data_{kitti/bdd_small/bdd_large}.
 
 Model location is set in {kitti/bdd_large/bdd_small}_settings.py.  
 
