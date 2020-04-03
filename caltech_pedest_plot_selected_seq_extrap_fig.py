@@ -31,8 +31,14 @@ import hickle as hkl
 
 batch_size = 1
 
+#sequence from the article
 start_img=38306
 end_img=38330
+
+#sequence from the supplementary materials
+#start_img=38968
+#end_img=38992
+
 nt = end_img-start_img+1
 extrap_start_time = 10
 
