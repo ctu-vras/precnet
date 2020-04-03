@@ -40,8 +40,10 @@ Perform:
 2) Run ```python3 process_selected_bdd100k_train0-4999.py``` (```python3 process_selected_bdd100k_train_40K.py```) for getting large (small) subset of *BDD100K* as a training set -- 2M (41K) of frames.
 
 
-## Training/downloading of a network
-The model can be train, depending on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. Already trained models, which was evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*.
+## Training a network
+The model can be train, depending on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. 
+
+Already trained models, which was evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*.
 
 Model location is set in *{kitti/bdd_large/bdd_small}_settings.py*.  
 
