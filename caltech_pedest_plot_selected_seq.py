@@ -31,8 +31,31 @@ import hickle as hkl
 
 batch_size = 1
 
-start_img=18648
-end_img=18658
+start_img = 18648
+end_img = 18658
+
+#other sequences from the article (figures)
+#start_img = 18912
+#end_img = 18922
+#
+#start_img = 39749
+#end_img = 39759
+#
+#start_img = 39809
+#end_img = 39819
+#
+#start_img = 5522
+#end_img = 5532
+#
+#start_img = 38915
+#end_img = 38925
+#
+#start_img = 1180
+#end_img = 1190
+#
+#start_img = 18648
+#end_img = 18658
+
 nt = end_img-start_img+1
 
 data_file = os.path.join(DATA_DIR, 'X_pedest_test.hkl')
