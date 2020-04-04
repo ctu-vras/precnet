@@ -43,7 +43,7 @@ Perform:
 ## Training of a network
 The model can be train, depending on training dataset, by ```python3 kitti_train.py```, ```python3 bdd_large_train.py``` or ```python3 bdd_small_train.py```. 
 
-Already trained models, which was evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*.
+Already trained models, which were evaluated in the article, can be found in the folders *model_data_{kitti/bdd_small/bdd_large}*. **These models will be overwritten by newly trained models if you run the training.** You can prevent it, for instance by changing their names.  
 
 Model location is set in *{kitti/bdd_large/bdd_small}_settings.py*.  
 
