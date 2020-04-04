@@ -12,7 +12,7 @@ PreCNet is a deep hierachical reccurent network for next frame video prediction 
 4. Get desired evaluation or figures 
 
 ## Prerequisities
-Version used during training/testing are shown in the parenthesis.
+Versions used during training/testing are shown in the parenthesis.
 * Python 3 (3.6.6)
 * Keras (2.2.4)
 * Tensorflow (1.13.1)
