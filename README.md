@@ -12,7 +12,14 @@ PreCNet is a deep hierachical reccurent network for next frame video prediction 
 4. Get desired evaluation or figures 
 
 ## Prerequisities
-TODO
+Version used during training/testing are shown in the parenthesis.
+* Python 3 (3.6.6)
+* Keras (2.2.4)
+* Tensorflow (1.13.1)
+* Hickle (3.4.5)
+* Numpy (1.15.0)
+* Matplotlib (3.1.2)
+* Pillow (6.2.1)
 
 ## Datasets
 The model was trained on (i) **KITTI** dataset, (ii) large subset of **Berkeley DeepDrive dataset (BDD100K)** with size 2M frames (*bdd_large*), (iii) small subset of **BDD100K** with size 41K frames (*bdd_small*). Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
