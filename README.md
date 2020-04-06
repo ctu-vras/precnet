@@ -20,6 +20,7 @@ Versions used during training/testing are shown in the parenthesis.
 * Numpy (1.15.0)
 * Matplotlib (3.1.2)
 * Pillow (6.2.1)
+* Six (1.11.0)  
 
 ## Datasets
 The model was trained on (i) **KITTI** dataset, (ii) large subset of **Berkeley DeepDrive dataset (BDD100K)** with size 2M frames (*bdd_large*), (iii) small subset of **BDD100K** with size 41K frames (*bdd_small*). Evaluation of the network was performed on test part of **Caltech Pedestrian Dataset**.
