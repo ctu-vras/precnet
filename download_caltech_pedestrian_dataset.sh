@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Code for downloading test part of Caltech Pedestrian Dataset (Dollar et al. 2012, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
+#Code for downloading test part of Caltech Pedestrian Dataset (Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/).
 
 mkdir -p datasets/raw_cal_ped_dataset
 

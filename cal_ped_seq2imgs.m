@@ -1,5 +1,5 @@
-%Transform seq files of Caltech Pedestrian Dataset (test part) into images
-%Download and install Piotr's Computer Vision Matlab Toolbox (https://pdollar.github.io/toolbox/) first
+%Transform seq files of Caltech Pedestrian Dataset - test part (Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) into images.
+%Download and install Piotr's Computer Vision Matlab Toolbox (https://pdollar.github.io/toolbox/) first.
 names_set={'set06','set07','set08','set09','set10'};
 sets_last_idx=[18,11,10,11,11];
 

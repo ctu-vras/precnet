@@ -1,6 +1,6 @@
 '''
-Evaluate trained PreCNet on Caltech Pedestrian Dataset sequences.
-Based on code related to PredNet - Lotter et al. 2016
+Evaluate trained PreCNet on Caltech Pedestrian Dataset (Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) sequences.
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 Calculates mean-squared error, SSIM, PSNR and plots predictions.
 '''
 

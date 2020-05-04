@@ -1,6 +1,6 @@
 '''
-Plot a selected sequence from Caltech Pedestrian Dataset and its extrapolation by trained PreCNet. Only first nt images are given to the network, the rest of images is extrapolated (multiple frame prediction).
-Based on code related to PredNet - Lotter et al. 2016
+Plot a selected sequence from Caltech Pedestrian Dataset (Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) and its extrapolation by trained PreCNet. Only first nt images are given to the network, the rest of images is extrapolated (multiple frame prediction).
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 '''
 
 import os

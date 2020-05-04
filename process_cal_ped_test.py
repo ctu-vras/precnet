@@ -1,7 +1,7 @@
 '''
-Code for downloading and processing Caltech Pedestrian Dataset - test part (P. Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
-Based on code related to PredNet - Lotter et al. 2016
-Method of resizing was specified (bicubic) 
+Code for downloading and processing Caltech Pedestrian Dataset - test part (P. Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/).
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
+Method of resizing was specified (bicubic). 
 '''
 
 import os

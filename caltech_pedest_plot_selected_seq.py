@@ -1,6 +1,6 @@
 '''
-Plot predictions of a selected sequence from Caltech Pedestrian Dataset outputted by trained PreCNet.
-Based on code related to PredNet - Lotter et al. 2016
+Plot predictions of a selected sequence from Caltech Pedestrian Dataset (Dollar et al. 2009, http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) outputted by trained PreCNet.
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 '''
 
 import os

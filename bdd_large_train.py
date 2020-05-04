@@ -1,6 +1,6 @@
 '''
-Train PreCNet on subset bdd100k sequences (2M subset). (https://bdd-data.berkeley.edu/)
-Based on code related to PredNet - Lotter et al. 2016
+Train PreCNet on subset of bdd100k sequences (2M subset). (Yu et al. 2020, https://bdd-data.berkeley.edu/).
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 '''
 
 import os

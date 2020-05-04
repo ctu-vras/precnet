@@ -3,7 +3,7 @@ import numpy as np
 from keras import backend as K
 from keras.preprocessing.image import Iterator
 
-#Code taken from code related to PredNet - Lotter et al. 2016
+#Code taken from code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 # Data generator that creates sequences for input into PreCNet/PredNet.
 class SequenceGenerator(Iterator):
     def __init__(self, data_file, source_file, nt,

@@ -1,7 +1,7 @@
 '''
-Code for processing BDD100K dataset - small train subset 40K (Yu et al. 2018, https://bdd-data.berkeley.edu/)
-Based on code related to PredNet - Lotter et al. 2016
-Method of resizing was specified (bicubic) 
+Code for processing BDD100K dataset - small train subset 40K (Yu et al. 2020, https://bdd-data.berkeley.edu/)
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
+Method of resizing was specified (bicubic). 
 '''
 
 import os, pdb

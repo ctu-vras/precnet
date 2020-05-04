@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Code for downloading selected parts of bdd100k  (Yu et al. 2018, https://bdd-data.berkeley.edu/)
+#Code for downloading selected parts of bdd100k (Yu et al. 2020, https://bdd-data.berkeley.edu/)
 
 mkdir -p datasets/raw_bdd100k_dataset
 cd datasets/raw_bdd100k_dataset

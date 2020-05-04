@@ -7,9 +7,9 @@ from keras.layers import Conv2D, UpSampling2D, MaxPooling2D
 from keras.engine import InputSpec
 
 class PreCNet(Recurrent):
-    '''PreCNet - deep network based on predictive coding schema by Rao and Ballard
-    see [PreCNet: Next Frame Video Prediction Based on Predictive Coding] by Straka et al. for details
-    Code from PredNet - Lotter et al. 2016 used as a starting point for this code.
+    '''PreCNet - deep network based on predictive coding schema by Rao and Ballard.
+    See [PreCNet: Next Frame Video Prediction Based on Predictive Coding] by Straka et al. for details.
+    Code from PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet) used as a starting point for this code.
 
     # Arguments
         stack_sizes: number of channels in targets (A) and predictions (Ahat) in each layer of the architecture.
@@ -51,7 +51,7 @@ class PreCNet(Recurrent):
             Keras config file at `~/.keras/keras.json`.
 
     # References
-        -[PreCNet: Next Frame Video Prediction Based on Predictive Coding]
+        -[PreCNet: Next Frame Video Prediction Based on Predictive Coding](https://arxiv.org/abs/2004.14878)
         -[Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects](http://www.nature.com/neuro/journal/v2/n1/pdf/nn0199_79.pdf)
         -[Deep predictive coding networks for video prediction and unsupervised learning](https://arxiv.org/abs/1605.08104)
         -[Long short-term memory](http://deeplearning.cs.cmu.edu/pdfs/Hochreiter97_lstm.pdf)

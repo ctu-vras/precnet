@@ -1,6 +1,6 @@
 '''
-Train PreCNet on KITTI sequences. (Geiger et al. 2013, http://www.cvlibs.net/datasets/kitti/)
-Based on code related to PredNet - Lotter et al. 2016
+Train PreCNet on KITTI sequences. (Geiger et al. 2013, http://www.cvlibs.net/datasets/kitti/).
+Based on code related to PredNet - Lotter et al. 2016 (https://arxiv.org/abs/1605.08104 https://github.com/coxlab/prednet).
 '''
 
 import os
