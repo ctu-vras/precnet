@@ -80,7 +80,8 @@ Network states can be obtained by setting output mode to desire units and layer 
 
 
 ## Acknowledgements
-Code kindly provided by Lotter et al. 2016 ([Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/abs/1605.08104), [repository](https://github.com/coxlab/prednet)) was used as a base for our model and significantly speeded up development of our network. 
+We would like to thank to the authors of [PredNet](https://arxiv.org/abs/1605.08104), [repository](https://github.com/coxlab/prednet) for making their source code public which
+significantly accelerated the development of PreCNet.
 
 
 
