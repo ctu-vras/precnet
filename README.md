@@ -80,8 +80,7 @@ Network states can be obtained by setting output mode to desire units and layer 
 
 
 ## Acknowledgements
-We would like to thank to the authors of [PredNet](https://arxiv.org/abs/1605.08104), [repository](https://github.com/coxlab/prednet) for making their source code public which
-significantly accelerated the development of PreCNet.
+We would like to thank to the authors of [PredNet](https://arxiv.org/abs/1605.08104) for making their [source code](https://github.com/coxlab/prednet) public which significantly accelerated the development of PreCNet.
 
 
 
