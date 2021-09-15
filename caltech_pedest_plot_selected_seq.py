@@ -55,6 +55,12 @@ end_img = 18658
 #
 #start_img = 18648
 #end_img = 18658
+#
+#start_img = 8347
+#end_img = 8357
+#
+#start_img = 493
+#end_img = 503
 
 nt = end_img-start_img+1
 
