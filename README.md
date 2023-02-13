@@ -1,6 +1,6 @@
 # PreCNet
 
-This repository contains complete code and trained models related to [PreCNet: Next Frame Video Prediction Based on Predictive Coding](https://arxiv.org/abs/2004.14878) by Zdenek Straka, Tomas Svoboda and Matej Hoffmann. The content is sufficient to generate all results and figures from the paper.
+This repository contains complete code and trained models related to the article Straka, Z.; Svoboda, T. & Hoffmann, M. (2023), [PreCNet: Next-frame video prediction based on predictive coding](https://doi.org/10.1109/TNNLS.2023.3240857), IEEE Transactions on Neural Networks and Learning Systems. [Arxiv](https://arxiv.org/abs/2004.14878). The content is sufficient to generate main results and figures from the paper.
 
 PreCNet is a deep hierachical reccurent network for next frame video prediction which embodies predictive coding schema proposed by Rao and Ballard ([Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects](https://www.nature.com/articles/nn0199_79)).
 
